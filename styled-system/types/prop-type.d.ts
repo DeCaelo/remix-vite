@@ -202,8 +202,8 @@ interface PropertyValueTypes {
 	stroke: Tokens["colors"];
 	srOnly: boolean;
 	debug: boolean;
-	colorPalette: "rose" | "pink" | "fuchsia" | "purple" | "violet" | "indigo" | "blue" | "sky" | "cyan" | "teal" | "emerald" | "green" | "lime" | "yellow" | "amber" | "orange" | "red" | "neutral" | "stone" | "zinc" | "gray" | "slate";
-	textStyle: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | "7xl" | "8xl" | "9xl";
+	colorPalette: "navy" | "red" | "orange" | "green" | "blue" | "periwinkle" | "surface" | "text" | "text.onInteractive" | "text.onInteractive.primary" | "text.onInteractive.secondary" | "interactive" | "interactive.primary" | "interactive.secondary" | "interactive.secondary.accent" | "interactive.tertiary" | "interactive.danger" | "canvas" | "slider" | "slider.thumb" | "spinner" | "spinner.primary" | "spinner.onInteractive" | "skeleton" | "brand" | "brand.logo";
+	textStyle: "body.sm.regular" | "body.sm.medium" | "body.sm.bold" | "body.md.regular" | "body.md.medium" | "body.md.bold" | "body.lg.regular" | "body.lg.medium" | "body.lg.bold" | "heading.xl";
 }
 
 

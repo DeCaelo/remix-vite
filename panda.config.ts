@@ -1,8 +1,12 @@
 import { defineConfig } from '@pandacss/dev';
+import { pandaPreset } from "./panda-preset";
 
 export default defineConfig({
   // Whether to use css reset
   preflight: true,
+
+  // Use Panda preset
+  presets: [pandaPreset],
 
   // The extension for the emitted JavaScript files
   outExtension: 'js',
@@ -21,5 +25,11 @@ export default defineConfig({
   },
 
   // The output directory for your css system
-  outdir: 'styled-system'
+  outdir: 'styled-system',
+
+  // Additional conditions to be available to our CSS
+  conditions: {
+    light: "[data-theme=light] &",
+    dark: "[data-theme=dark] &",
+  },
 });

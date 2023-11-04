@@ -2,9 +2,9 @@
 import type { AnySelector, Selectors } from './selectors';
 
 export interface Conditions {
-	/** `[data-theme=light] &` */
+	/** `[color-theme=light] &` */
 	"_light": string
-	/** `[data-theme=dark] &` */
+	/** `[color-theme=dark] &` */
 	"_dark": string
 	/** `&:is(:hover, [data-hover])` */
 	"_hover": string

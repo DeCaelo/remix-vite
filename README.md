@@ -26,3 +26,9 @@ npm run start
 ```
 
 [remix-vite-docs]: https://remix.run/docs/en/main/future/vite
+
+# Panda Css
+
+```
+  pnpm panda codegen --clean
+```

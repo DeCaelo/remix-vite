@@ -3,6 +3,9 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "imports": {
+    "#*": "./*"
+  },
   "scripts": {
     "build": "vite build && vite build --ssr",
     "dev": "vite dev",
@@ -10,6 +13,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
     "@remix-run/css-bundle": "^2.2.0",
     "@remix-run/node": "^2.2.0",
     "@remix-run/react": "^2.2.0",

@@ -177,7 +177,7 @@ const buttonStyles = cva({
       },
     },
     size: {
-      xs: { textStyle: 'body.sm.medium', px: 16, h: 32, rounded: 'md' },
+      xs: { textStyle: 'body.sm.medium', px: 14, h: 28, rounded: 'xs' },
       sm: { textStyle: 'body.sm.medium', px: 20, h: 40, rounded: 'md' },
       md: { textStyle: 'body.md.medium', px: 20, h: 48, rounded: 'md' },
     },
